@@ -10,8 +10,8 @@ function initializeClock(endtime) {
         if (t.total <= 0) {
             clearInterval(timeinterval);
             let success = false
-            let amount = 3000;
-            let price = 0.09; // ($ amount to invest) / ($ price per token) => eg 1 ETH to $2700
+            let amount = 'ENTER AMOUNT';
+            let price = 'ENTER PRICE'; // ($ amount to invest) / ($ price per token) => eg 1 ETH to $2700
             let adjustedAmount = Math.trunc(amount / price);
 
             while(!success) {
